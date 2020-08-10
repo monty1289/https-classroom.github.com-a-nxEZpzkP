@@ -37,6 +37,7 @@ section {
     z-index: 1;
   }
   
+  
   /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
@@ -51,8 +52,21 @@ section {
 
 .dropdown:hover .dropbtn {background-color: #acacac;}
 
-  iframe{
-      float: inline-end;
-  }
+ body{
+   margin: 0;
+   margin-top: 50px;
+   font-family: sans-serif;
+ }
+ 
+ header{
+   display: flex;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   line-height: 50px;
+   
+ }
 
   
