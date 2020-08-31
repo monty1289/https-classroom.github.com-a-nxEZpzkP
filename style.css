@@ -5,6 +5,7 @@
     transition-duration: 0.2s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    border-block-color: blue;
 }
 
 .dropdown-full{
@@ -68,6 +69,7 @@
   font-weight: 300;
   margin-block-start: 0;
   letter-spacing: 1px;
+
  }
  
  header{
@@ -88,6 +90,13 @@
 
  .row-fluid{
    width: 100%;
+   padding-right: 40px;
+   padding-left: 40px;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   list-style: none;
+   padding-left: 18px;
  }
 
  .hero-50-main{
@@ -127,6 +136,13 @@
   max-width: 100%;
   width: 100%;
   position: relative;
+
+}
+
+.Aug2020
+{
+  
+
 }
  
 
