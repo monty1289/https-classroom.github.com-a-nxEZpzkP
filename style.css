@@ -177,6 +177,13 @@ header{
 
 
 }
+
+h3{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
 .vid-50-inner img{
   
   margin: -10px 0px 0px -180px;
@@ -184,6 +191,13 @@ header{
 
 footer{
   padding: 40px;
+}
+
+.product_info{
+  margin: 30px;
+}
+.info{
+  
 }
 
 
