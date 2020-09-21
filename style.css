@@ -144,13 +144,19 @@ header{
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  height: 589px;
+  height: 700px;
 }
 
 .hero-50-right{
   background-color: #acacac;
   width: 50%;
-  
+  min-width: 700px;
+  padding-bottom: 100px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 100px;
+  border: 1px solid blue;
+  border-top-left-radius: 5px;
 }
 
 .hero-50-inner{
@@ -161,13 +167,18 @@ header{
 
 .hero-50-left{
   
-  border: 5px blue;
+  border: 1px solid blue;
   border-top-right-radius: 5px;
-  padding-right: 10px;
+  
   text-align: center;
   flex: 60;
   background-color: aqua;
   width: 50%;
+  min-width: 500px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 100px;
   }
 
 .vid-50-inner{
@@ -190,16 +201,31 @@ p{
 }
 
 footer{
-  padding: 40px;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
 }
 
 .product_info{
-  margin: 30px;
+  background-color: azure;
+  margin: 0px;
+  padding: 200px 30px 80px;
+  border: 1px solid blue;
 }
-.info{
+.image{
+  height: 700;
+  min-width: 700;
+ 
   
 }
 
+.footer-menu
+{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
