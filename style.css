@@ -60,7 +60,8 @@ nav {
   height: auto;
   width: auto;
   background-color: white;
-  text-decoration: none;    
+  text-decoration: none;
+  padding-right: 100px;    
 }
 
 header{
@@ -148,7 +149,7 @@ header{
 
 .hero-50-outer{
   box-sizing: border-box;
-  display: flex;
+  
   flex-wrap: wrap;
   height: 700px;
   z-index: -1;
@@ -203,9 +204,11 @@ h4{
   text-align: center;
   font-size: 35px;
   color: rgb(104, 78, 253);
+  line-height: 40px;
 }
 p{
   text-align: center;
+  color: #330084;
 }
 .vid-50-inner img{  
   margin: -10px 0px 0px -180px;
@@ -213,9 +216,10 @@ p{
 
 footer{
   float: left;
-  width: 33.33%;
+  width: 100%;
   padding: 10px;
-  height: 300px;
+  height: 100px;
+  
 }
 
 .product_info{
@@ -253,6 +257,54 @@ footer{
   border: 1px solid blue;
 }
 
+.sponsor-image{
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-duration: 32s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-name: slidey;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  justify-content: center;
+  
+}
+
+.sponsors{
+  animation: 32s linear infinite slidey;
+  padding: 20px;
+}
+
+.footer-content{
+  padding-right: 400px;
+  font-size: larger;
+  font: bolder;
+  
+}
+
+.store-header{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.store-main{
+  display: flex;
+}
+.store-image{
+  border: 1px solid blue;
+    
+  text-align: center;
+  flex: 60;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  min-width: 500px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  z-index: -1;
+  
+}
 
 
 
