@@ -149,7 +149,7 @@ header{
 
 .hero-50-outer{
   box-sizing: border-box;
-  
+  display: flex;
   flex-wrap: wrap;
   height: 700px;
   z-index: -1;
@@ -206,10 +206,7 @@ h4{
   color: rgb(104, 78, 253);
   line-height: 40px;
 }
-p{
-  text-align: center;
-  color: #330084;
-}
+
 .vid-50-inner img{  
   margin: -10px 0px 0px -180px;
 }
@@ -225,8 +222,8 @@ footer{
 .product_info{
   background-color: azure;
   margin: 0px;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   padding-left: 30%;
   padding-right: 30%;  
   border: 1px solid blue;
@@ -234,6 +231,7 @@ footer{
 .Info{
   padding-bottom: 200px;
   color: rgb(76, 0, 255);
+  text-align: center;
 }
 
 .video{  
@@ -255,6 +253,7 @@ footer{
   margin: 0px;
   padding: 50px 20% 80px;
   border: 1px solid blue;
+  text-align: center;
 }
 
 .sponsor-image{
@@ -276,9 +275,10 @@ footer{
 }
 
 .footer-content{
-  padding-right: 400px;
+  padding-right: 20%;
   font-size: larger;
-  font: bolder;
+  font: bolder;  
+  text-decoration: rgb(255, 255, 255);
   
 }
 
@@ -292,7 +292,7 @@ footer{
 }
 .store-image{
   border: 1px solid blue;
-    
+  border-radius: 5px;
   text-align: center;
   flex: 60;
   background-color: rgb(255, 255, 255);
@@ -302,8 +302,49 @@ footer{
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 0px;
+  margin: 10px;
   z-index: -1;
   
+}
+
+.about-header{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #d8bfff;
+  
+}
+.about-constent{
+  display: flex;
+  border: 1px solid blue;
+  z-index: 20;
+}
+
+.about-content-text{
+float: right;
+width: 60%;
+text-align: left;
+padding-right: 10%;
+}
+
+.about-content-video{
+  float: left;
+  width: 25%;
+  padding-left: 10%;
+  
+}
+
+.crew{
+  padding-top: 300px;
+  display: block;
+}
+
+.map{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.location-header{
+  padding-top: 100px;
 }
 
 
