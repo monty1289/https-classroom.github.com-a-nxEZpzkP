@@ -467,6 +467,10 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+#userLog{
+  padding-top: 100px;
+  justify-content: center;
+}
 
 
 
